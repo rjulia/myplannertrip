@@ -4,14 +4,26 @@ export type RootStackParamList = {
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  MyTrip: undefined;
+  DailyPlan: undefined;
+  Expenses: undefined;
+  Info: undefined;
 };
 
 export type TabOneParamList = {
-  TabOneScreen: undefined;
+  Home: undefined;
+  SelectTravel: undefined;
+  CreateTravel: undefined;
 };
 
-export type TabTwoParamList = {
-  TabTwoScreen: undefined;
+export type DailyPlanParamList = {
+  DailyPlan: undefined;
+};
+
+export type ExpensesParamList = {
+  Expenses: undefined;
+};
+
+export type InfoParamList = {
+  Info: undefined;
 };
